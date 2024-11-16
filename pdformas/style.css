@@ -1,0 +1,256 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.left {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.overlay {
+    top: 0%;
+    position: absolute;
+    z-index: 2; 
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 16px;
+}
+
+.lab-image {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    z-index: 1; 
+}
+
+
+.right {
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+}
+
+.right h2 {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.right a.button {
+    display: inline-block;
+    background-color: white;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border:2px solid #007bff;
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.right a.button:hover {
+    background-color: #007bff;
+    color: white;
+} 
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 320px;
+}
+
+form button {
+    background-color: white;
+    color: #007bff;
+    padding: 10px;
+    border-color: #007bff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+form button:hover {
+    background-color: #007bff;
+    color: white;
+} 
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-title {
+    font-size: 28px;
+    color: #1a73e8;
+    text-align: left;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d65c28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.error-button:hover {
+    background-color: #d65c28;
+}
+
+
+.dbcontainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.data-table th, .data-table td {
+    border-bottom: 5px solid #e6e4e4;
+    padding: 8px;
+    text-align: left;  
+     
+}
+
+.data-table td:not(:first-child) {
+    font-weight: bold; 
+}
+.data-table th {
+    background-color: rgb(8, 8, 89);
+    color: white;
+}
+
+
+
+.search-container {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 30%;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.search-button {
+    width: 240px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white; 
+    color: #007bff; 
+    border:2px solid #007bff; 
+    border-radius: 30px;
+  
+}
+
+.search-button:hover {
+    background-color: #007bff; 
+    color: white; 
+}
+
+
+
+.back-button {
+    margin-bottom: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+.und_subtitle {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-decoration: underline; 
+    text-decoration-color: #007bff; 
+}
+
+.custom-line {
+    border: none;              
+    border-top: 1px solid white; 
+    width: 40%;                
+    margin: 10px auto;         
+}
