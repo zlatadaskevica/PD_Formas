@@ -8,16 +8,13 @@
 </head>
 <body>
     <div class="dbcontainer">
-        <!-- Кнопка "Назад на sākumlapu" -->
         <div class="back-button">
             <a href="index.php">&larr; Atpakaļ uz sākumlapu</a>
         </div>
         
-        <!-- Заголовок -->
         <h1 class="main-title">Publiskā datubāze</h1>
         <p class="und_subtitle">Šajā datubāzē Tu vari apskatīt pieejamās vielas un aprīkojumu</p>
 
-        <!-- Форма поиска -->
         <div class="search-container">
             <input type="text" class="search-input" placeholder="&#x1F50D Search">
             <button class="search-button">Rādīt visu</button>
@@ -25,7 +22,6 @@
             <button class="search-button">Rādīt aprīkojumu</button>
         </div>
 
-        <!-- Таблица -->
         <div class="table-container">
             <table class="data-table">
                 <thead>
@@ -99,7 +95,7 @@
         </div>
 
     </div>
-    <!-- Кнопка "Zinot par kļūdu" -->
+    
     <a href="#" class="error-button">Ziņot par kļūdu</a>
 </body>
 </html>
